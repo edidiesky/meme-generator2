@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(224, 220, 221, 0.5);
+  position: relative;
+  
+}
+
+.Memedisplay {
+	
+	margin: 30px auto;
+	width: 41%
+}
+
+.form {
+	margin: 10px auto;
+	width: 50%;
+}
+.form input:hover {
+	background-color: green;
+	color: white;
+	border: none;
+}
+.bottomtext {
+	bottom: 50px;
+	position: absolute;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.toptext {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	top: 270px;
+	position: absolute;
+}
+.form input{
+	padding: 10px;
+	border: none;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+.form button {
+	font-size: 25px;
+	color: white;
+	background-color: rgba(10, 220, 80, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+	border: none;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.Memeheader {
+	width: 40%;
+	margin: 0 auto;
+	background-color: white;
+	text-align: center;
+	
+}
+
+.Memeheader h1 {
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.Memedisplay img {
+	height: 400px;
+	width: 500px;
+	border: 1px dotted rgba(222, 30, 40, 0.5);
+	border-radius: 6px;
+}
+
+
